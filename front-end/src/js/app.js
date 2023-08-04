@@ -112,6 +112,8 @@ mainElm.on('click', '.image .download', (event) => {
     downloadImage(imageUrl,imageName);
 });
 
+
+/* display slideshow */
 function setCurrentImageIndex(newValue){
     if( newValue >= 0 && newValue < DisplayedAllImageUrlList.length) {
         currentImageIndex = newValue;
@@ -134,6 +136,7 @@ function displaySlideshow(){
     }
 }
 
+/* upload images */
 function uploadImages(imageFiles){
     const formData = new FormData();
     imageFiles.forEach(imageFile => {
@@ -168,6 +171,7 @@ function uploadImages(imageFiles){
     jqxhr.always(()=> $(".image.loader").remove());
 }
 
+/* load all images */
 function loadAllImages() {
     const jqxhr = $.ajax(`${REST_API_URL}/images`);
 
@@ -184,6 +188,8 @@ function loadAllImages() {
 
 }
 
+
+/* download an image */
 function downloadImage(imageUrl, imageName){
 
     const jqxhr = $.ajax({
