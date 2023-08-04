@@ -15,12 +15,13 @@ provides a visually appealing and user-friendly interface for an enhanced experi
 ### Technologies Used
 - Java
 - Spring Web MVC (Jackson, Servlet)
-- HTML
+- HTML (HTML5 Drag and Drop Web API)
 - CSS (with SCSS)
 - JavaScript (with jQuery)
 - Bootstrap
 - jQuery Ajax
-- CSS Loaders and Animate.css 
+- CSS Loaders and Animate.css
+- Parcel Build Tool (Front-end Build Tool) 
 
 ### Demo
 ![](asset/gallery-app-demo.gif)
