@@ -1,6 +1,6 @@
-# Public Gallery App
+# Snap-Spot Public Image Gallery App
 
-The Public Gallery App is a feature rich web application that offers users the ability to seamlessly upload, 
+The Snap-Spot Public Image Gallery App is a feature rich web application that offers users the ability to seamlessly upload, 
 download, and manage their images. Supporting various formats like JPEG, JPG, PNG, AVIF, and more, the app 
 provides a visually appealing and user-friendly interface for an enhanced experience.
 
